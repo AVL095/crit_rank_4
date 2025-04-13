@@ -1,0 +1,128 @@
+﻿<html>
+<head>
+<link href="tree/tree.css" rel="stylesheet">
+<script src="tree/tree.js"></script>
+<script src="js/rang.js"></script>
+<script src="js/stat.js"></script>
+</head>
+
+<div onclick="tree_toggle(arguments[0])" class="Title">Точное распределение ранговых критериев
+
+<ul class="Container">
+  <li class="Node IsRoot ExpandClosed">
+    <div class="Expand"></div>
+
+    <div class="Content">Перестановка с повторением</div>
+     <ul class="Container">
+      <li class="Node IsRoot ExpandClosed">
+        <div class="Expand"></div>
+        <div class="Content">Критерии однородности</div>
+      <ul class="Container">
+      <li class="Node ExpandLeaf IsLast">
+        <div class="Expand"></div>
+   <div class="ContentLast" title="Kruskal">Критерий Краскелла</div>
+        </li>
+      </ul>
+
+   <ul class="Container">
+      <li class="Node ExpandLeaf IsLast">
+        <div class="Expand"></div>
+        <div class="ContentLast" title="Leman">Критерий Лемана-Розенбалатта</div>
+      </li>
+    </ul>
+   
+
+   <ul class="Container">
+      <li class="Node ExpandLeaf IsLast">
+        <div class="Expand"></div>
+        <div class="ContentLast" title="Wilcoxon">Критерий Уилкоксона</div>
+      </li>
+    </ul>
+
+   </li>
+  </ul>  
+ 
+
+  <ul class="Container">
+      <li class="Node IsRoot ExpandClosed">
+        <div class="Expand"></div>
+        <div class="Content">Критерии масштаба</div>
+      <ul class="Container">
+      <li class="Node ExpandLeaf IsLast">
+        <div class="Expand"></div>
+        <div title="Ansari" class="ContentLast">Критерий Ансари-Брэдли</div>
+        </li>
+      </ul>
+
+   <ul class="Container">
+      <li class="Node ExpandLeaf IsLast">
+        <div class="Expand"></div>
+        <div title="Mood" class="ContentLast">Критерий Муда</div>
+      </li>
+    </ul>
+  </li>
+  </li>
+  </ul>  
+
+   <ul class="Container">
+      <li class="Node IsRoot ExpandClosed">
+        <div class="Expand"></div>
+        <div class="Content">Критерии нормальных меток</div>
+      <ul class="Container">
+      <li class="Node ExpandLeaf IsLast">
+        <div class="Expand"></div>
+        <div title="Capon" class="ContentLast">Критерий Кэйпона</div>
+        </li>
+      </ul>
+     <ul class="Container">
+      <li class="Node ExpandLeaf IsLast">
+        <div class="Expand"></div>
+        <div title="Fisher" class="ContentLast">Критерий Фишера-Йетса</div>
+        </li>
+      </ul>
+     <ul class="Container">
+      <li class="Node ExpandLeaf IsLast">
+        <div class="Expand"></div>
+        <div title="Klotz" class="ContentLast">Критерий Клотца</div>
+        </li>
+      </ul>
+     <ul class="Container">
+      <li class="Node ExpandLeaf IsLast">
+        <div class="Expand"></div>
+        <div title="VanDerVarden" class="ContentLast">Критерий Ван-дер-Вардена</div>
+        </li>
+      </ul>
+
+   </li>
+  </ul>
+
+
+  <li class="Node IsRoot ExpandClosed">
+    <div class="Expand"></div>
+    <div class="Content">Аналитический расчет<br/></div>
+    <ul class="Container">
+      <li class="Node ExpandLeaf IsLast">
+        <div class="Expand"></div>
+        <div title="Wilcoxon-analitic" class="ContentLast">Критерий Уилкоксона (Сижела-Тьюки)</div>
+      </li>
+    </ul>
+ <ul class="Container">
+      <li class="Node ExpandLeaf IsLast">
+        <div class="Expand"></div>
+        <div title="Ansari-analitic" class="ContentLast">Критерий Ансари-Брэдли</div>
+      </li>
+    </ul>
+
+  <ul class="Container">
+      <li class="Node ExpandLeaf IsLast">
+        <div class="Expand"></div>
+        <div title="Series" class="ContentLast">Критерий серий</div>
+      </li>
+    </ul>
+
+ </li>
+ </ul>
+
+</div>
+
+</html>
